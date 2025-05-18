@@ -79,7 +79,7 @@ document.getElementById("dowload").addEventListener("click", function(){
     domtoimage.toJpeg(document.getElementById('my-node'), { quality: 0.95 })
     .then(function (dataUrl) {
         var link = document.createElement('a');
-        link.download = 'my-image-name.PDF';
+        link.download = 'my-image-name.PNG';
         link.href = dataUrl;
         link.click();
     });
