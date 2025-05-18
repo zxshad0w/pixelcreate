@@ -1,0 +1,92 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    width: 630px;
+    height: 630px;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 0.5px;
+    background-color: gray;
+}
+.cell{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(99, 99, 99);
+    
+}
+
+.color-container{
+    display: flex;
+    align-items:flex-end;
+    background-color: gray;
+    height: 30px;
+    width: 96vh;
+    justify-content: space-between;
+
+}
+
+.color-cell{
+    display: flex;
+    justify-content: space-between;
+}
+
+.white{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.black{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+.blue{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+.pink{
+    background-color: pink;
+    width: 30px;
+    height: 30px;
+}
+.yellow{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+}
+.brown{
+    background-color: brown;
+    width: 30px;
+    height: 30px;
+}
+.orange{
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+}
+.purple{
+    background-color: purple;
+    width: 30px;
+    height: 30px;
+}
+.gray{
+    background-color: rgb(99, 99, 99);
+    width: 30px;
+    height: 30px;
+}
+.zalivka{
+    width: 30px;
+    height: 30px;
+}
+
+.save{
+    width: 30px;
+    height: 30px;
+}
